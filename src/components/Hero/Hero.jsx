@@ -41,7 +41,7 @@ const Header = () => {
             </span>
           </p>
         </Fade>
-      <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+      {/*<Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
                 <p className="hero-cta2">
             <span className="cta-btn cta-btn--hero2">
              <a href='https://secure.actblue.com/' smooth duration={1000}> 
@@ -49,7 +49,7 @@ const Header = () => {
                 </a>
             </span>
           </p>
-        </Fade>
+        </Fade>*/}
       </Container>
     </section>
   );

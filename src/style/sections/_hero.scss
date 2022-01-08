@@ -44,25 +44,35 @@
     @include respond(phone) {
       font-size: 3.5rem;
       line-height: 1.5;
+      text-align: center;
     }
     @include respond(phone-xs) {
       font-size: 2.8rem;
     }
   }
 
-  .hero-cta,.hero-cta2, {
+  .hero-cta,.hero-cta2 {
     display: inline-flex;
     padding-right: 2rem;
 
     @include respond(tab-port) {
       justify-content: center;
+      text-align: center;
     }
 
+@include respond(phone) {
+        font-size: 2rem;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+}
     & a {
       font-size: 2.4rem;
 
       @include respond(phone) {
         font-size: 2rem;
+        justify-content: center;
+        text-align: center;
       }
     }
   }

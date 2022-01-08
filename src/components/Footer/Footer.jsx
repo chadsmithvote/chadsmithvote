@@ -16,7 +16,7 @@ const Footer = () => {
       <Container>
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
-            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+            <i className="fa-solid fa-angle-up fa-2x" aria-hidden="true"/>
           </Link>
         </span>
         <div className="social-links">
@@ -26,21 +26,20 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || 'https://votechadsmith.com/'}
                   rel="noopener noreferrer"
                   target="_blank"
-                  aria-label={name}
-                >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  aria-label={name} >
+                  <i className={`${name || 'refresh'} fa-inverse`} />
                 </a>
               );
             })}
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - POLITICAL ADVERTISEMENT PAID FOR AND APPROVED BY FRIENDS OF CHAD SMITH. {' '}
+          © {new Date().getFullYear()} - {'Political advertisement paid for and approved by Friends of Chad Smith. '}
             <a>
-            THE MAXIMUM THAT AN INDIVIDUAL OR BUSINESS MAY CONTRIBUTE IS $1,000 PER ELECTION CYCLE. </a>
+            The maximum that an individual or business may contribute is $1,000 per election cycle.  </a>
         </p>
 
         {isEnabled && <GithubButtons />}
