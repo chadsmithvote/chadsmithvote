@@ -67,9 +67,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Help me make our schools better for students.',
+  cta: 'Help me bring authentic leadership to our schools',
   btn: 'Join Me!',
-  email: 'info@chadsmith.vote',
+  email: 'https://www.mobilize.us/votechadsmith/event/435883/',
 };
 
 // FOOTER DATA
