@@ -35,11 +35,13 @@ const Footer = () => {
               );
             })}
         </div>
+
+
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - {'Political advertisement paid for and approved by Friends of Chad Smith. '}
-            <a>
-            The maximum that an individual or business may contribute is $1,000 per election cycle.  </a>
+          © {new Date().getFullYear()} - {'Political advertisement paid for and approved by Chad Smith. '}
+            
+            The maximum that an individual or business may contribute is $1,000 per election cycle. 
         </p>
 
         {isEnabled && <GithubButtons />}

@@ -14,7 +14,7 @@ export const heroData = {
   name: 'Chad Smith',//
   subtitle: "I'm running for School Board in District 2", //
   cta: 'Meet Chad',
-  cta2: " Donate  ",
+  cta2: ' Donate  ',
 };
 
 // ABOUT DATA
@@ -69,8 +69,16 @@ export const projectsData = [
 export const contactData = {
   cta: 'Help me bring authentic leadership to our schools',
   btn: 'Join Me!',
-  email: 'https://www.mobilize.us/votechadsmith/event/435883/',
+  url: 'https://www.mobilize.us/votechadsmith/event/435883/',
+
 };
+
+// CONTACTFORM DATA
+export const FormData = {
+  Title: 'Donate',
+  btn: 'Donate',
+  form: "xjvlgvzq",
+}
 
 // FOOTER DATA
 export const footerData = {
