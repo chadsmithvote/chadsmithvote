@@ -101,7 +101,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'fa-solid fa-at',
-      url: 'info@chadsmith.vote',
+      url: 'mailto:info@chadsmith.vote',
     },
   ],
 };
