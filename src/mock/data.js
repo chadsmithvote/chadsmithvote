@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Chad Smith for District 2', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Chad Smith for School Board District 2' // e.g: Welcome to my website
+  description: 'Chad Smith for Pinellas County School Board District 2' // e.g: Welcome to my website
 };
 
 
@@ -12,7 +12,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',//
   name: 'Chad Smith',//
-  subtitle: "I'm running for School Board in District 2", //
+  subtitle: "I'm running for Pinellas County School Board in District 2", //
   cta: 'Meet Chad',
   cta2: ' Donate  ',
 };

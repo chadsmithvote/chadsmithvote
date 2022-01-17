@@ -17,7 +17,7 @@ function ContactForm() {
       <section id="form-group">
 <div className="contact-form">
 
- <div className="project-wrapper">
+ <div className="cf-head">
           <Title title="Donate" />
 </div>
 <p> Checks can be mailed to the candidate's campaign committee: </p> <p><b> Friends of Chad Smith at PO Box 735 Dunedin, FL  34697</b>. </p> <p> Contributions cannot exceed $1,000 per election for individuals and businesses.</p>  
