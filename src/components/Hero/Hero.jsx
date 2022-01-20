@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta, cta2 } = hero;
+  const { title, name, subtitle, cta, cta2, cta3 } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -44,8 +44,17 @@ const Header = () => {
       <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1500} distance="30px">
                 <p className="hero-cta2">
             <span className="cta-btn cta-btn--hero2">
-             <Link to="form-group" smooth duration={1000}>
+             <Link to="donate" smooth duration={1000}>
                 {cta2 || 'Donate' }
+                </Link>
+            </span>
+          </p>
+        </Fade>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1500} distance="30px">
+                <p className="hero-cta3">
+            <span className="cta-btn cta-btn--hero3">
+             <Link to="contact" smooth duration={1000}>
+                {cta3 || 'Sign Up' }
                 </Link>
             </span>
           </p>

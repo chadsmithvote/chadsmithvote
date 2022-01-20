@@ -15,7 +15,10 @@ export const heroData = {
   subtitle: "I'm running for Pinellas County School Board in District 2.", //
   cta: 'Meet Chad',
   cta2: ' Donate  ',
+  cta3: 'Sign up'
 };
+
+
 
 // ABOUT DATA
 export const aboutData = {
@@ -74,10 +77,10 @@ export const contactData = {
 };
 
 // CONTACTFORM DATA
-export const FormData = {
+export const donateData = {
   Title: 'Donate',
   btn: 'Donate',
-  form: "xjvlgvzq",
+  url: "https://secure.actblue.com/donate/votechadsmith?refcode=vsc&amount=15.00",
 }
 
 // FOOTER DATA
