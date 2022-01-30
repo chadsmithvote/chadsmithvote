@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne } = about;
+  const { img, paragraphOne,resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -41,6 +41,16 @@ const About = () => {
                   {paragraphOne ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
+                <div className="about--cta">
+                <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={resume || 'https://www.mobilize.us/votechadsmith/event/435883/'}
+                      >
+                        Join Me!
+                      </a>
+                      </div>
               </div>
             </Fade>
           </Col>

@@ -23,15 +23,12 @@ border-bottom: .25rem solid #252422;
 
 .cta-btn--donate {
 text-align:center;
-  margin-top: 13rem;
+  margin-top: 2.5rem;
   position: absolute;
-  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-   display: inliine-flex;
-  justify-content: center;
-  align-items: center;
+   display: block;
   justify-content: center;
   align-items: center;
 background-image: linear-gradient(135deg, $primary-color2 0%, $secondary-color2 100%);
@@ -47,6 +44,10 @@ background-image: linear-gradient(135deg, $primary-color2 0%, $secondary-color2 
     background-image: none;
     border: 2px solid $secondary-color;
     -webkit-text-fill-color: $secondary-color;
+    display: inline-block;
+  justify-content: center;
+  margin-top: 5rem;
+    ;
   }
 
   &::after {
@@ -72,20 +73,22 @@ background-image: linear-gradient(135deg, $primary-color2 0%, $secondary-color2 
 }
 
 #donate {
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem 0;
-  margin-top: -10rem;
-  margin-bottom: -px;
+  padding: 5rem 0 5rem 0;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
   color: #000000;
   text-align:center;
 
   @include respond(tab-land) {
-    padding: 10rem 0;
+    padding: 5rem 0;
     clip-path: none;
-    margin-top: 0;
     -webkit-clip-path: none;
-  }
+    margin-bottom: 2.5rem}
+
+    @include respond(phone) {
+        font-size: 2rem;
+        margin-bottom: 5rem;}  
+
 
 .donate-text{
   text-align: left;
@@ -100,7 +103,8 @@ font-size: 2.0rem;}
 
 
 @include respond(phone) {
-        font-size: 2rem;}
+        font-size: 2rem;
+        margin-bottom: 5rem;}
 
   .donate-wrapper {
     margin-top: 3.0rem;
@@ -115,10 +119,13 @@ font-size: 2.0rem;}
     &__text,
     a {
       font-size: 2.4rem;
+      margin-bottom: 2.5rem;
 
       // Responsive for contact text
       @include respond(phone) {
         font-size: 2rem;
+        margin-bottom: 2.5rem;
+        margin-top: 5rem;
       }
     }
   }

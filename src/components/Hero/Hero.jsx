@@ -44,9 +44,9 @@ const Header = () => {
       <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1500} distance="30px">
                 <p className="hero-cta2">
             <span className="cta-btn cta-btn--hero2">
-             <Link to="donate" smooth duration={1000}>
+             <a href="https://secure.actblue.com/donate/votechadsmith?refcode=vsc&amount=25.00">
                 {cta2 || 'Donate' }
-                </Link>
+                </a>
             </span>
           </p>
         </Fade>

@@ -23,8 +23,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Hello, my name is Chad Smith. I’m a former football coach and Educational Specialist. I worked with the Exceptional Student Population and as a Social Science Teacher in various Title 1 High Schools throughout Florida. I have a decade of experience in the public-school environment. My tenure included stops at Gibbs High School and Woodlawn in south Pinellas and Anclote and Dunedin in north Pinellas. I hold a Terminal Degree in Education from the University of West Florida, from which I recently became an alumnus. For four years, I worked in higher education as a student assistant with the Arkansas Razorback Football team. Later as an Educational Specialist at Ultimate Medical Academy, I designed courses.',
-  // resume: // if no resume, the button will not show up
+  paragraphOne: 'Hello, my name is Chad Smith. I’m a former football coach and Educational Specialist. I worked with the Exceptional Student Population and as a Social Science Teacher in various Title 1 High Schools throughout Florida. I have a decade of experience in the public-school environment. My tenure included stops at Gibbs High School and Woodlawn in south Pinellas and Anclote and Dunedin in north Pinellas. I hold a Terminal Degree in Education from the University of West Florida, from which I recently became an alumnus. For four years, I worked in higher education as a student assistant with the Arkansas Razorback Football team. Later as an Educational Specialist at Ultimate Medical Academy, I designed courses. Currently, I work as an educational business consultant for multi-national corporations. Together we can usher in the authentic leadership needed to ensure our students have a safe and effective learning environment. Join the campaign today!',
+  resume: 'https://www.mobilize.us/votechadsmith/event/435883/'
 };
 
 // PROJECTS DATA
@@ -42,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.jpg',
     title: 'Education should be equitable for all students regardless of ability.',
-    info: 'The district refuses to provide proper support to dyslexic students with a personal physician diagnosis. Any ESE student on an IEP should have their disability specifically diagnosed. Those with private physician diagnoses should have their education designed with evidence-based instruction tailored to the student needs.',
+    info: 'The district refuses to provide proper support to dyslexic students with a personal physician diagnosis. Any ESE student on an IEP should have their disability specifically diagnosed. Those with private diagnoses should have their education designed with evidence-based instruction tailored to the student needs.',
   // info2: '',
   // url: '',
     //repo: '', // if no repo, the button will not show up

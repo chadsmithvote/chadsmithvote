@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, btn, url } = contact;
 
 
   return (
@@ -22,8 +22,8 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `${email}` : 'https://www.mobilize.us/votechadsmith/event/435883/'}
+              className="cta-btn cta-btn--contact"
+              href={url ? `${url}` : 'https://www.mobilize.us/votechadsmith/event/435883/'}
             >
               {btn || "Let's Talk"}
             </a>

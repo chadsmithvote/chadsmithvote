@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/amy/Dropbox (Personal)/My Mac (AHS-MBP.local)/Documents/GitHub/chadsmithvote/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Gatsby Simplefolio","short_name":"Simplefolio","start_url":"/","background_color":"#fff","theme_color":"#083d77","display":"standalone","icon":"src/images/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"7030f670686d5ac609ad7d6a1d6419ce"},
+      options: {"plugins":[],"name":"Gatsby Simplefolio","short_name":"Simplefolio","start_url":"/","background_color":"#fff","theme_color":"#083d77","display":"standalone","icon":"src/images/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"592d99c064a8d15dac7e06bc40be6f18"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

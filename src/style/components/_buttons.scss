@@ -101,6 +101,18 @@
 .cta-btn--resume {
   color: $white-color;
   border: 2px solid $white-color;
+text-align:center !important;
+  padding: 0.8rem $default-font-size;
+  font-weight: bold;
+  line-height: 1;
+  z-index: -1;
+  bottom: 0;
+display: inline-block;
+position:absolute;
+font-size: 2.4rem;
+ margin: 0;
+ left: 0;
+
 
   &::after {
     background: $white-color;
@@ -116,6 +128,23 @@
   }
 }
 
+.cta-btn--contact {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
 .cta-btn--hero3 {
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-background-clip: text;
