@@ -42,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.jpg',
     title: 'Education should be equitable for all students regardless of ability.',
-    info: 'The district refuses to provide proper support to dyslexic students with a personal physician diagnosis. Any ESE student on an IEP should have their disability specifically diagnosed. Those with private diagnoses should have their education designed with evidence-based instruction tailored to the student needs.',
+    info: 'The district refuses to provide proper support to dyslexic students with a personal physician diagnosis. Any ESE student on an IEP should have their disability specifically diagnosed. Those with diagnoses should have their education designed with evidence-based instruction tailored to the student needs.',
   // info2: '',
   // url: '',
     //repo: '', // if no repo, the button will not show up
